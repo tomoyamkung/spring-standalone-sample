@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration PUBLIC "-//log4j/log4j Configuration//EN" "./log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+	<!-- アペンダ -->
+	<!-- コンソール出力 -->
+	<appender name="STDOUT" class="org.apache.log4j.ConsoleAppender">
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %-5p %c.%M:%L - %m%n"/>
+		</layout>
+	</appender>
+	
+	<!-- カテゴリ -->
+	<!-- net.tomoyamkung 以下のパッケージに対するカテゴリ -->
+	<category name="net.tomoyamkung" >
+		<priority value ="DEBUG" />
+		<appender-ref ref="STDOUT" />
+	</category>
+
+	<!-- net.tomoyamkung 以下のパッケージに対するカテゴリ -->
+	<category name="org.springframework" >
+		<priority value ="WARN" />
+		<appender-ref ref="STDOUT" />
+	</category>
+	
+</log4j:configuration>
