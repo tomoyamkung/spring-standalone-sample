@@ -6,7 +6,7 @@ import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
- * 動作確認用のクラス。
+ * 動作確認用の実行クラス。
  * 
  * @author tomoyamkung
  *
