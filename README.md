@@ -214,6 +214,10 @@ $ mvn clean package
 
 このプロジェクトを JAR に固めて実行できるように pom.xml に必要なプラグインを追加。
 
+0.2 としてタグ付け。
+
+- [Release このプロジェクトを JAR に固めて実行できるように pom.xml に必要なプラグインを追加 · tomoyamkung/spring-standalone-sample](https://github.com/tomoyamkung/spring-standalone-sample/releases/tag/0.2)
+
 
 ## 2014/01/20
 
