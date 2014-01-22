@@ -206,3 +206,20 @@ $ mvn clean package
 ```xml
 2014-01-21 00:49:58,145 DEBUG net.tomoyamkung.model.HogeModelImpl.printLog:22 - Hello, spring-standalone-sample!!
 ```
+
+
+# 更新履歴
+
+## 2014/01/22
+
+このプロジェクトを JAR に固めて実行できるように pom.xml に必要なプラグインを追加。
+
+
+## 2014/01/20
+
+検証プログラムをコ作成したのでコミット。
+
+0.1 としてタグ付け。
+
+- [Release 検証プロジェクトをコミット。 · tomoyamkung/spring-standalone-sample](https://github.com/tomoyamkung/spring-standalone-sample/releases/tag/0.1)
+
