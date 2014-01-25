@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
  * @author tomoyamkung
  *
  */
-@Service("hogeModel")
+@Service // HogeModel を実装するクラスは本クラスだけなので @Service アノテーションの引数で論理名を指定しなくてもよい
 public class HogeModelImpl implements HogeModel {
 	
 	private static final Logger log = Logger.getLogger(HogeModelImpl.class);

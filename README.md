@@ -210,6 +210,11 @@ $ mvn clean package
 
 # 更新履歴
 
+## 2014/01/25
+
+DI を applicationContext.xml の bean タグによる設定ではなく、`@Autowired` と `@Component`, `@Service` アノテーションによる紐付けに変更。
+
+
 ## 2014/01/22
 
 このプロジェクトを JAR に固めて実行できるように pom.xml に必要なプラグインを追加。

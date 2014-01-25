@@ -6,8 +6,12 @@
            http://www.springframework.org/schema/beans classpath:/org/springframework/beans/factory/xml/spring-beans-3.0.xsd
            http://www.springframework.org/schema/context classpath:/org/springframework/context/config/spring-context-3.0.xsd">
 
-	<!-- model -->
-	<context:component-scan base-package="net.tomoyamkung.model" />
+	<!-- net.tomoyamkung 以下のパッケージをスキャン対象とする -->
+	<context:component-scan base-package="net.tomoyamkung" />
+	
+	<!-- クラスにアノテーションを設定してクラスの紐付けを指定することもできるが、↓のように設定ファイルで定義することもできる -->
+	<!--
 	<bean id="hogeModel" class="net.tomoyamkung.model.HogeModelImpl" />
+	-->
 
 </beans>
